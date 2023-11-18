@@ -538,7 +538,6 @@ while not terminal:
     score_recording.append(reward)
 
 
-
 #%% Plot the run
 plt.figure()
 plt.plot(range(len(score_recording)), score_recording)
@@ -547,19 +546,5 @@ plt.ylabel('Reward')
 now = datetime.now()
 plt.title('Testing : ' + now.strftime("%Y-%m-%d %H-%M-%S"))
 plt.show()        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #%% END
